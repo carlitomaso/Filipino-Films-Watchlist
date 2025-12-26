@@ -11,8 +11,8 @@ export interface Writing {
 export const writings: Writing[] = [
   {
     id: '1',
-    title: 'The Golden Age of Philippine Cinema',
-    author: 'Maria Santos',
+    title: 'Sana Matapos natin to tonight HAHAHA',
+    author: 'Carl Thomas Condevillamar',
     date: '2024-11-15',
     excerpt: 'Exploring the revolutionary period of Filipino filmmaking from the 1950s to 1970s.',
     content: 'The golden age of Philippine cinema represents a transformative period in Filipino cultural expression. During this era, filmmakers like Lamberto Avellana, Gerardo de Leon, and Lino Brocka created masterpieces that not only entertained but also challenged societal norms and political structures. These films were characterized by their bold storytelling, innovative cinematography, and deep exploration of Filipino identity.',
