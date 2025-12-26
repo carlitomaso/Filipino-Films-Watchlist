@@ -11,7 +11,7 @@ export interface Writing {
 export const writings: Writing[] = [
   {
     id: '1',
-    title: 'Sana Matapos natin to tonight HAHAHA',
+    title: 'Sdjfoidsjfoidsjfoidsjf',
     author: 'Carl Thomas Condevillamar',
     date: '2024-11-15',
     excerpt: 'Exploring the revolutionary period of Filipino filmmaking from the 1950s to 1970s.',
