@@ -1,6 +1,7 @@
-import { Writing } from '../data/writingsData';
-import { X, User, Calendar } from 'lucide-react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import React from "react";
+import { Writing } from "../data/writingsData";
+import { X, User, Calendar } from "lucide-react";
+import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 interface WritingModalProps {
   writing: Writing;
@@ -8,18 +9,18 @@ interface WritingModalProps {
 }
 
 export function WritingModal({ writing, onClose }: WritingModalProps) {
-  const formattedDate = new Date(writing.date).toLocaleDateString('en-US', {
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
+  const formattedDate = new Date(writing.date).toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
   });
 
   return (
-    <div 
+    <div
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
       onClick={onClose}
     >
-      <div 
+      <div
         className="relative bg-slate-900 rounded-lg max-w-4xl w-full max-h-[90vh] overflow-hidden border border-amber-900/30 shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
@@ -47,7 +48,7 @@ export function WritingModal({ writing, onClose }: WritingModalProps) {
           {/* Content Section */}
           <div className="p-8">
             <h2 className="text-amber-50 mb-4">{writing.title}</h2>
-            
+
             <div className="flex items-center gap-6 text-slate-400 mb-6 pb-6 border-b border-amber-900/30">
               <div className="flex items-center gap-2">
                 <User className="w-4 h-4 text-amber-600" />
@@ -57,6 +58,12 @@ export function WritingModal({ writing, onClose }: WritingModalProps) {
                 <Calendar className="w-4 h-4 text-amber-600" />
                 <span>{formattedDate}</span>
               </div>
+            </div>
+
+            <div className="mb-4 p-4 bg-slate-800 rounded-lg border border-amber-600">
+              <p className="text-amber-50 leading-relaxed whitespace-pre-line">
+                {writing.excerpt}
+              </p>
             </div>
 
             <div className="prose prose-invert max-w-none">
