@@ -1,18 +1,18 @@
-import { useState, useEffect } from 'react';
-import { FilmCarousel } from './components/FilmCarousel';
-import { WritingCarousel } from './components/WritingCarousel';
-import { FilmModal } from './components/FilmModal';
-import { WritingModal } from './components/WritingModal';
-import { EssaySection } from './components/EssaySection';
-import { Film } from './types/film';
-import { Writing, writings } from './data/writingsData';
-import { essays } from './data/essaysData';
-import { Search, Film as FilmIcon, BookOpen, PenTool } from 'lucide-react';
-import { loadFilmsFromCSV } from './utils/csvParser';
+import { useState, useEffect } from "react";
+import { FilmCarousel } from "./components/FilmCarousel";
+import { WritingCarousel } from "./components/WritingCarousel";
+import { FilmModal } from "./components/FilmModal";
+import { WritingModal } from "./components/WritingModal";
+import { EssaySection } from "./components/EssaySection";
+import { Film } from "./types/film";
+import { Writing, writings } from "./data/writingsData";
+import { essays } from "./data/essaysData";
+import { Search, Film as FilmIcon, BookOpen, PenTool } from "lucide-react";
+import { loadFilmsFromCSV } from "./utils/csvParser";
 
 export default function App() {
   const [films, setFilms] = useState<Film[]>([]);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
   const [loading, setLoading] = useState(true);
   const [selectedFilm, setSelectedFilm] = useState<Film | null>(null);
   const [selectedWriting, setSelectedWriting] = useState<Writing | null>(null);
@@ -23,14 +23,16 @@ export default function App() {
     setLoading(false);
   }, []);
 
-  const filteredFilms = films.filter(film =>
-    film.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    film.director.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredFilms = films.filter(
+    (film) =>
+      film.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      film.director.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  const filteredWritings = writings.filter(writing =>
-    writing.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    writing.author.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredWritings = writings.filter(
+    (writing) =>
+      writing.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      writing.author.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   const totalFilms = films.length;
@@ -47,7 +49,7 @@ export default function App() {
     <div className="min-h-screen bg-slate-950 relative">
       {/* Film grain overlay */}
       <div className="fixed inset-0 opacity-[0.03] pointer-events-none bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxwYXRoIGQ9Ik0wIDBoMzAwdjMwMEgweiIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIuNSIvPjwvc3ZnPg==')]" />
-      
+
       <div className="max-w-7xl mx-auto px-4 py-12 relative">
         {/* Header */}
         <header className="mb-12 text-center">
@@ -87,7 +89,7 @@ export default function App() {
             <FilmIcon className="w-6 h-6 text-amber-600" />
             <h2 className="text-amber-400">Films I've Watched</h2>
           </div>
-          
+
           <FilmCarousel films={filteredFilms} onFilmClick={setSelectedFilm} />
         </section>
 
@@ -97,8 +99,11 @@ export default function App() {
             <BookOpen className="w-6 h-6 text-amber-600" />
             <h2 className="text-amber-400">Writings on Filipino Cinema</h2>
           </div>
-          
-          <WritingCarousel writings={filteredWritings} onWritingClick={setSelectedWriting} />
+
+          <WritingCarousel
+            writings={filteredWritings}
+            onWritingClick={setSelectedWriting}
+          />
         </section>
 
         {/* Essays Section */}
@@ -107,7 +112,7 @@ export default function App() {
             <PenTool className="w-6 h-6 text-amber-600" />
             <h2 className="text-amber-400">My Essays</h2>
           </div>
-          
+
           <div className="space-y-8">
             {essays.map((essay) => (
               <EssaySection key={essay.id} essay={essay} />
@@ -120,9 +125,12 @@ export default function App() {
       {selectedFilm && (
         <FilmModal film={selectedFilm} onClose={() => setSelectedFilm(null)} />
       )}
-      
+
       {selectedWriting && (
-        <WritingModal writing={selectedWriting} onClose={() => setSelectedWriting(null)} />
+        <WritingModal
+          writing={selectedWriting}
+          onClose={() => setSelectedWriting(null)}
+        />
       )}
     </div>
   );
