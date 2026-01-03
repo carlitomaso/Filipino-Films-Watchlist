@@ -1,33 +1,30 @@
 id,title,year,director,dateWatched,notes,imageUrl
-1,Native Life in the Philippines,1939,Unknown,01/01/2024,Very interesting movie,https://example.com/image1.jpg
-2,Ang Tanging Ina,2003,Marvin Agustin,02/01/2024,Description not available,https://example.com/image2.jpg
-3,Batang West Side,2001,Peque Gallaga,03/01/2024,Description not available,https://example.com/image3.jpg
-4,Headhunter's Daughter,2018,Unknown,04/01/2024,Description not available,https://example.com/image4.jpg
-5,Anak Dalita,1956,Lino Brocka,05/01/2024,Description not available,https://example.com/image5.jpg
-6,Genghis Khan,1950,Unknown,06/01/2024,Description not available,https://example.com/image6.jpg
-7,Maynila sa mga Kuko ng Liwanag,1975,Lino Brocka,07/01/2024,Description not available,https://example.com/image7.jpg
-8,Kisapmata,1981,Peque Gallaga,08/01/2024,Description not available,https://example.com/image8.jpg
-9,Himala,1982,Nora Aunor,09/01/2024,Description not available,https://example.com/image9.jpg
-10,Oro Plata Mata,1982,Peque Gallaga,10/01/2024,Description not available,https://example.com/image10.jpg
-11,Sine50,2023,Various,11/01/2024,Description not available,https://example.com/image11.jpg
-12,Filipiñana,2019,Unknown,12/01/2024,Description not available,https://example.com/image12.jpg
-13,Agapito,2008,Unknown,13/01/2024,Description not available,https://example.com/image13.jpg
-14,It's Raining Frogs Outside,2005,Unknown,14/01/2024,Description not available,https://example.com/image14.jpg
-15,Juan Gapang,2008,Unknown,15/01/2024,Description not available,https://example.com/image15.jpg
-16,ABCD,2019,Unknown,16/01/2024,Description not available,https://example.com/image16.jpg
-17,Oliver,2018,Unknown,17/01/2024,Description not available,https://example.com/image17.jpg
-18,Mababangong Bangungot,1997,Unknown,18/01/2024,Description not available,https://example.com/image18.jpg
-19,Cinemalaya,2005,Various,19/01/2024,Description not available,https://example.com/image19.jpg
-20,1st Submission: RESPONSE 1 (Creative or Critical),2023,Unknown,20/01/2024,Description not available,https://example.com/image20.jpg
-21,Aguila,1980,Unknown,21/01/2024,Description not available,https://example.com/image21.jpg
-22,Pieta,2016,Brillante Mendoza,22/01/2024,Description not available,https://example.com/image22.jpg
-23,Manila By Night,1980,Ismael Bernal,23/01/2024,Description not available,https://example.com/image23.jpg
-24,Kinatay,2009,Brillante Mendoza,24/01/2024,Description not available,https://example.com/image24.jpg
-25,Merika,1994,Nick Deocampo,25/01/2024,Description not available,https://example.com/image25.jpg
-26,Astri Maka si Tambulah,2008,Unknown,26/01/2024,Description not available,https://example.com/image26.jpg
-27,Sanctissima,2019,Unknown,27/01/2024,Description not available,https://example.com/image27.jpg
-28,Hondo,1976,Unknown,28/01/2024,Description not available,https://example.com/image28.jpg
-29,Lola Loleng,2009,Unknown,29/01/2024,Description not available,https://example.com/image29.jpg
-30,Baguio Address No. 10,2009,Unknown,30/01/2024,Description not available,https://example.com/image30.jpg
-31,Women of the Weeping River,2018,Unknown,31/01/2024,Description not available,https://example.com/image31.jpg
-32,Bayaning Third World,1999,Mark Meily,01/02/2024,Description not available,https://example.com/image32.jpg
+1,Native Life in the Philippines,1913,Dean C. Worcester,01/01/2024,"The curated aesthetic of ""primitive"" Filipinos.",native.png
+2,Ang Tanging Ina,2003,Wenn V. Deramas,02/01/2024,The movie is an amalgamation of everything that is good and bad with Filipino culture.,ina.png
+3,Batang West Side,2001,Lav Diaz,03/01/2024,Lav Diaz's use of long shots makes the viewer have a more personal connection with the movie.,westside.png
+4,Headhunter's Daughter,2022,Don Josephus Raphael Eblahan,04/01/2024,The cinematography of the movie encourages the viewer to feel at home while watching.,https://images.squarespace-cdn.com/content/v1/603206e1372b9903d47694fa/7129e059-6054-4bd6-97f7-5440ff026258/Ryan_Oquiza_REVIEW_TheHeadhuntersDaughter_2.jpg
+5,Anak Dalita,1956,Lamberto V. Avellana,05/01/2024,The setting of the movie paints a very authentic image of the life in Manila after the war.,dalita.png
+6,Genghis Khan,1950,Manuel Conde,06/01/2024,Manuel Conde's mastery of production is in full display here in successfully creating the feeling of being in Mongolia.,genghiskhan.png
+7,Maynila sa mga Kuko ng Liwanag,1975,Lino Brocka,07/01/2024,"Lino Brocka has amazingly depicted a ""way of seeing"" of Manila from the perspective of Filipinos from the provinces.",kuko.png
+8,Kisapmata,1981,Mike de Leon,08/01/2024,The subtle horror is very strong and effective in this movie.,kisapmata.png
+11,Dagitab,2015,Giancarlo Abrahan,11/01/2024,The movie bravely explores themes that are not usually covered in popular Filipino media.,dagitab.png
+12,Filipiñana,2020,Rafael Manuel,12/01/2024,The stillness and choreographed nature of the film is a good representation of the everyday lives of the ordinary Filipino.,https://i0.wp.com/shortsblog.berlinale.de/wp-content/uploads/2020/03/filipinana_c2a9-rafael-manuel_02c.jpg?fit=1200%2C882&ssl=1
+13,Agapito,2025,"Kyla Danelle Romero,�Arvin Belarmino",13/01/2024,"Despite being a short film, the movie was able to build up to create multiple exposition points.",https://images.squarespace-cdn.com/content/v1/603206e1372b9903d47694fa/869e286c-9839-4342-ba50-b2697b6f3e98/vlcsnap-2025-05-28-18h15m22s767.jpg
+14,It's Raining Frogs Outside,2021,Maria Estela Paiso,14/01/2024,The movie successfully capitalized on creating a nostalgic feeling to create a connection.,https://images.mubicdn.net/images/film/333761/cache-756987-1745499560/image-w1280.jpg
+15,Juan Gapang,1986,Roxlee,15/01/2024,The movie creatively contrasts the roughness of urban versus rural life in the Philippines.,gapang.png
+16,ABCD,1985,Roxlee,16/01/2024,Using easily digestible media such as cartoons as means to expose should be explored more in Filipino cinema.,abcd.png
+17,Oliver,1983,Nick Deocampo,17/01/2024,It is very interesting to have the documentary show very personal aspects of Oliver's life.,oliver.png
+18,Mababangong Bangungot,1977,Kidlat Tahimik,18/01/2024,Kidlat Tahimik was able to create a very authentic community as if the viewer is part of it while watching.,bangungot.png
+19,Bloom Where You Are Planted,2025,Noni Abao,19/01/2024,The movie did not limit itself to a single medium and incorporated different mediums to improve its storytelling.,https://www.cinemalaya.org/wp-content/uploads/2025/09/FILM-STILL-9_BLOOM-WHERE-YOU-ARE-PLANTED_1500-px.png
+21,Aguila,1980,Eddie Romero,21/01/2024,Muslim Mindanao being part of the movie is great and it showed the reality of the region at the time.,aguila.png
+22,Pieta,1983,Carlo Caparas,22/01/2024,The movie was really effective in making the viewers hate Rigor.,pieta.png
+23,Manila By Night,1980,Ishmael Bernal,23/01/2024,"In the movie, it is shown that Manila does not really sleep at night but during the day.",manilabynight.png
+24,Kinatay,2009,Brillante Mendoza,24/01/2024,The use of natural lighting in the scenes makes the movie feel like a documentary.,https://preview.redd.it/a-brilliant-thriller-one-the-one-hand-a-deep-dive-into-the-v0-hs829w3au5ud1.jpg?width=1080&crop=smart&auto=webp&s=ca6aea032cc9af9a8f3a1f3715e26d85c348a881
+25,Merika,1984,Gil Portes,25/01/2024,Challenging the popular American dream that Filipinos have by showing the unfortunate reality of OFW.,merika.png
+26,Astri Maka si Tambulah,2017,Xeph Suarez,26/01/2024,Uses long close up shots to better show the emotions of the characters.,astri.png
+27,Sanctissima,2016,Kenneth Dagatan,27/01/2024,"Food in storytelling is very important, and in this movie it made sure that it looked as grotesque as possible.",santicissima.png
+28,Hondo,2017,Aedrian Araojo,28/01/2024,The movie felt like it is in a constant state of subtle panic. ,hondo.png
+29,Lola Loleng,2016,Che Tagyamon,29/01/2024,The unconventional animation used in the movie allowed the creators to use a huge selection of colors in creating the mood for each scene.,lola.png
+30,Baguio Address No. 10,2018,Mervine Aquino,30/01/2024,The use of old family videos and lofi audio narration creates a very nostalgic and personal connection with the film.,baguio.png
+31,Women of the Weeping River,2016,Sheron Dayoc,31/01/2024,The movie created a painfully honest portrayal of what life is like in Sulu.,women.png
+32,Bayaning Third World,2000,Mike de Leon,01/02/2024,Sticking with black and white in the movie tells us that whether Rizal retracted or not is a yes or no question.,bayani.png

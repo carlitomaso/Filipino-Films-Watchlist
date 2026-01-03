@@ -9,6 +9,7 @@ import { Writing, writings } from "./data/writingsData";
 import { essays } from "./data/essaysData";
 import { Search, Film as FilmIcon, BookOpen, PenTool } from "lucide-react";
 import { loadFilmsFromCSV } from "./utils/csvParser";
+import React from "react";
 
 export default function App() {
   const [films, setFilms] = useState<Film[]>([]);
@@ -60,7 +61,7 @@ export default function App() {
           </div>
           <h1 className="text-amber-400 mb-3 tracking-wide">PELIKULA</h1>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            My Personal Collection of Filipino Cinema
+            Carl Thomas Condevillamar's Film 12 Journal
           </p>
           <div className="mt-6 flex items-center justify-center gap-2">
             <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-600"></div>
@@ -87,7 +88,7 @@ export default function App() {
         <section className="mb-16">
           <div className="flex items-center gap-3 mb-8">
             <FilmIcon className="w-6 h-6 text-amber-600" />
-            <h2 className="text-amber-400">Films I've Watched</h2>
+            <h2 className="text-amber-400">Movies</h2>
           </div>
 
           <FilmCarousel films={filteredFilms} onFilmClick={setSelectedFilm} />
@@ -97,7 +98,7 @@ export default function App() {
         <section className="mb-16">
           <div className="flex items-center gap-3 mb-8">
             <BookOpen className="w-6 h-6 text-amber-600" />
-            <h2 className="text-amber-400">Writings on Filipino Cinema</h2>
+            <h2 className="text-amber-400">Writings</h2>
           </div>
 
           <WritingCarousel
@@ -110,7 +111,7 @@ export default function App() {
         <section className="mb-16">
           <div className="flex items-center gap-3 mb-8">
             <PenTool className="w-6 h-6 text-amber-600" />
-            <h2 className="text-amber-400">My Essays</h2>
+            <h2 className="text-amber-400">Free Writing Essays</h2>
           </div>
 
           <div className="space-y-8">

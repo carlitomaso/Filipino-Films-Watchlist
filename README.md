@@ -1,7 +1,5 @@
 
-  # Filipino Films Watchlist
-
-  This is a code bundle for Filipino Films Watchlist. The original project is available at https://www.figma.com/design/x4QAWWy5P96Eh9E4gcvWP8/Filipino-Films-Watchlist.
+  # Carl Thomas Condevillamar Film 12 Journal
 
   ## Running the code
 
